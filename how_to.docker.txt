@@ -1,0 +1,24 @@
+Previous create in docker hub a repo
+
+https://hub.docker.com/repository/docker/davidgk/simple-node-app
+
+
+
+Build your Docker Image
+Now that you have created a Dockerfile, it’s time to build your image using the docker build command.
+
+>docker build -t davidgk/simple-node-app:v1 .
+
+Nota :
+
+Once you've build it you can push your image to docker
+docker push davidgk/simple-node-app:v1
+
+
+You should now see the output of the terminal.
+>docker run -it davidgk/simple-node-app:v1
+
+
+
+
+
